@@ -1,0 +1,55 @@
+
+div{
+    text-align: center;
+}
+h1{
+    color: greenyellow;
+    font-size: 80px;
+}
+p{
+    color: white;
+    font-size: 40px;
+}
+a{
+    color: blue;
+}
+img{
+    width: 100px;
+}
+.money-rain {
+    position: absolute;
+    width: 2px;
+    height: 0;
+    background-color: transparent;
+    animation: moneyFall linear infinite;
+}
+
+.money {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    bottom: 0;
+    animation: fall linear infinite;
+}
+
+@keyframes moneyFall {
+    to {
+        height: 100vh;
+    }
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
+body{
+    background-image: url(images/téléchargement\ \(3\).jpg);
+    background-size: 1200px 700px;
+}
+#go_back{
+    width: 100px;
+    height: 100px;
+}

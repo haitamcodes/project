@@ -1,0 +1,49 @@
+ body{
+   background-image: url(images/depositphotos_647330328-stock-photo-modern-abstract-black-gold-background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .correct{
+    font-size: 30px;
+    background-color: black;
+    color: greenyellow;
+    border: 3px solid darkgreen;
+    text-decoration: none;
+    transition: font-size 0.25s;
+ }
+ hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid purple;
+    margin: 1em 0;
+    padding: 0;
+ }
+ .wrong{
+    font-size: 30px;
+    background-color: black;
+    color: red;
+    border: 3px solid darkred;
+    text-decoration: none;
+    transition: font-size 0.25s;
+ }
+ .wrong:hover{
+   font-size: 40px;
+ }
+ .correct:hover{
+   font-size: 40px;
+ }
+ div{
+    text-align: center;
+ }
+ img {
+    height: 400px;
+    width: 600px;
+}
+.back{
+    color: blue;
+}
+#go_back{
+   width: 100px;
+   height: 100px;
+}

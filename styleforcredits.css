@@ -1,0 +1,23 @@
+.Back {
+    color: blue;
+}
+body {
+    background-color: #041A2F;
+}
+img{
+    height: 500px;
+    width: 800px;
+}
+p{
+    color: white;
+}
+h1{
+    color: gold;
+}
+div{
+    text-align: center;
+}
+#go_back{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,63 @@
+body {
+    background-image: url(images/téléchargement\ \(2\).jpg);
+    
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+.higlighters {
+    color: gold;
+    background-color:#1A2430;
+    border: 3px solid goldenrod;
+    font-size: 50px;
+}
+.Back {
+    color: blue;
+}
+ul {
+    color: white;
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+}
+.list {
+    color:antiquewhite;
+}
+img {
+    height: 500px;
+    width: 800px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+.intro{
+    text-align: center;
+    font-size: 20px;
+}
+.ul{
+    text-align: center;
+}
+/* dont forget to make the ul centered */
+div{
+    text-align: center;
+}
+#go_back{
+    width: 100px;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+}
+#rectangle{
+    width: 950px;
+    height: 3650px;
+    background-color: black;
+    margin-left: 150px;
+}

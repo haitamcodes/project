@@ -1,0 +1,55 @@
+body {
+    background-image: url(images/images.png);
+    
+}
+p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.headers {
+    color: gold;
+    
+    font-size: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+div {
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+.button {
+    font-size: 40px;
+    background-color: #1A2430;
+    color: white;
+    border: 3px solid gold;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    transition: font-size 0.5s;
+}
+.button:hover{
+    font-size: 50px;
+}
+.button2 {
+    font-size: 30px;
+    background-color: black;
+    color: red;
+}
+.return {
+    color: blue;
+}
+#go_back{
+    width: 100px;
+    height: 100px;
+}
+#rectangle{
+   width: 800px;
+   height: 500px;
+   background-color: #1d1d1b;
+   margin-left: 200px;
+}
